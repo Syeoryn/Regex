@@ -9,5 +9,5 @@ var solveCrosswordPuzzle = function(letters){
     }
   }
   pattern += ' ';
-  return dictionary.match(new RegExp(pattern,'g'));
+  return dictionary.match(new RegExp(pattern,'gi'));
 }
