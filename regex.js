@@ -1,6 +1,6 @@
 // dictionary is a list of english words, loaded in regex.html
 var solveCrosswordPuzzle = function(letters){
-  var pattern = ' '
+  var pattern = '\\b'
   for(var i = 0; i < letters.length; i++){
     if(letters[i] === '_'){
       pattern += '.';
@@ -8,6 +8,6 @@ var solveCrosswordPuzzle = function(letters){
       pattern += letters[i];
     }
   }
-  pattern += ' ';
+  pattern += '\\b';
   return dictionary.match(new RegExp(pattern,'gi'));
 }
