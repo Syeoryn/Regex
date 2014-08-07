@@ -13,5 +13,5 @@
 
 
 var validateEmail = function(emailAddress){
-
+  return emailAddress.match(/\b^[^.][\w!#$%&'~]+[^.]@[\w]+\.[\w]+\b/)
 }
