@@ -6,7 +6,7 @@ I recommend following through in this order:
 
 1. solveCrosswordPuzzle
 2. getHashTagsAndMentions
-3. verifyPhoneNumber
+3. validatePhoneNumber
 4. swapWords
 5. findTLDRs
 6. validateEmail
